@@ -1,24 +1,30 @@
 .App {
-  text-align: center;
   margin: auto;
-  clear: keft
+  display: grid;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.backgroundWelcomeImage {
+html, body {
   background-image: url("../Images/Zion2017.jpg");
   height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.coverInfo {
+  	color: black;
+  	letter-spacing: -1px;
+    opacity: .5;
+    position: relative;
+    top: 3%;
+    left: 5%;
+    height: 100%;
+}
+
+.personalSpace {
+  text-align: center;
+  margin: 10px;
+}
+
+
