@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import '../Styles/App.css';
+const React = require('react');
 
-class Header extends Component {
+class Header extends React.Component {
   render() {
     return (
       <div className="coverInfo">
@@ -13,4 +12,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+module.exports = Header;

@@ -1,19 +1,31 @@
-import React, { Component } from 'react';
-import '../Styles/App.css';
+const React = require('react');
 
-import Header from './Header.js';
-// import BackgroundImage from './BackgroundImage.js';
-import Interest from './Interest.js';
+// Router import and utilization
+const ReactRouter = require('react-router-dom');
+const Router = ReactRouter.BrowserRouter;
+const Route = ReactRouter.Route;
+const Switch = ReactRouter.Switch;
 
-class Body extends Component {
+// Components
+const Header = require('./Header.js');
+const Interst = require('./Interest.js');
+const Projects = require('./Projects.js');
+const Navigation = require('./Navigation.js');
+
+class Body extends React.Component {
   render() {
     return(
+      <div>
+        <Router>
+          <Navigation />
+        </Router>
+
         <div>
           <Header />
-          <Interest />
         </div>
+      </div>
     )
   }
 }
 
-export default Body;
+module.exports = Body;
