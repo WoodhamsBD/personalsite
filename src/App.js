@@ -1,6 +1,7 @@
 import React from 'react';
 import './Styles/App.css';
 
+// Body 
 import Body from './Components/Body.js';
 
 // Main Page entrance point

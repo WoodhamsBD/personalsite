@@ -29,13 +29,13 @@ html, body {
 }
 
 /* Menu */
-.menu {
+.navigationMenu {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.menu ul {
+.navigationMenu ul {
   list-style-type: none;
   margin: 0px;
   padding: 0;
@@ -43,7 +43,7 @@ html, body {
   /* background-color: blue; */
 }
 
-.menu li {
+.navigationMenu li {
   float: right;
   display: block;
   text-align: center;

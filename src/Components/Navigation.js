@@ -4,7 +4,7 @@ const NavLink = require('react-router-dom').NavLink;
 
 function Navigation () {
   return (
-    <ul className="menu">
+    <ul className="navigationMenu">
       <li>
         <NavLink exact activeClassName='active' to='/'>
           Home
