@@ -1,22 +1,21 @@
 .App {
-  margin: auto;
   display: grid;
+  grid-template-columns: repeat(1fr, 4);
+  grid-template-rows: 15% 75% auto;
 }
 
 html, body {
   /* background-image: url("../Images/Zion2017.jpg"); */
-  background: linear-gradient(to bottom, rgb(180, 202, 205), rgb(87,133,139));
+  background: linear-gradient(to bottom, rgb(213, 246, 250), rgb(144, 203, 211));
   height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: grid;
 }
 
 /* Personal Information */
 .coverInfo {
-  /* position: relative; */
   	color: black;
   	letter-spacing: -1px;
     opacity: .7;
@@ -30,9 +29,9 @@ html, body {
 
 /* Menu */
 .navigationMenu {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  display: flex;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .navigationMenu ul {
@@ -44,22 +43,18 @@ html, body {
 }
 
 .navigationMenu li {
-  float: right;
   display: block;
   text-align: center;
   text-decoration: none;
   padding: 5px;
 }
 
-.menu li:hover {
-  background-color: #111;
+.navigationMenu li:hover {
+  background-color: rgb(34, 150, 185);
 }
-
-
 
 /* Grid area for Projects/Photos */
 .personalSpace {
-  display: grid;
   text-align: center;
   margin: 5%;
 }

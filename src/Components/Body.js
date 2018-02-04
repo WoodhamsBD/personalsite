@@ -1,23 +1,18 @@
-const React = require('react');
-
-// Router import and utilization
-const ReactRouter = require('react-router-dom');
-const Router = ReactRouter.BrowserRouter;
-const Route = ReactRouter.Route;
-const Switch = ReactRouter.Switch;
+import React, { Component } from 'react';
+import '.'
 
 // Components
-const Header = require('./Header.js');
-const Interst = require('./Interest.js');
-const Projects = require('./Projects.js');
-const Navigation = require('./Navigation.js');
-
-class Body extends React.Component {
+class Home extends React.Component {
   render() {
     return(
       <div>
+        <Navigation />
         <Router>
-          <Navigation />
+          <div>
+            <Switch>
+              <Route path='/interest' component={Interest} />
+            </Switch>
+          </div>
         </Router>
 
         <div>
@@ -28,4 +23,4 @@ class Body extends React.Component {
   }
 }
 
-module.exports = Body;
+module.exports = Home;
