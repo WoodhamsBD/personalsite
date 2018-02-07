@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import '../Styles/App.css';
 
-class BackgroundImage extends Component {
+
+// Components
+class Home extends React.Component {
   render() {
     return(
-      <div className="backgroundWelcomeImage"></div>
+      <div className="home-container">
+        <h1>Home container</h1>
+      </div>
     )
   }
 }
 
-export default BackgroundImage;
+export default Home;

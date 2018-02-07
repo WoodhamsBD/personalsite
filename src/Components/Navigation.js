@@ -12,7 +12,7 @@ function Navigation () {
       </li>
       <li>
         <NavLink activeClassName="active" to='/interest'>
-          Interest
+          Interests
         </NavLink>
       </li>
       <li>

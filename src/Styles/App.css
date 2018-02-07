@@ -16,8 +16,9 @@ html, body {
 
 /* Personal Information */
 .coverInfo {
-  	color: black;
-  	letter-spacing: -1px;
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: 2;
     opacity: .7;
 }
 .coverInfo h1 {
@@ -51,6 +52,10 @@ html, body {
 
 .navigationMenu li:hover {
   background-color: rgb(34, 150, 185);
+}
+
+.active {
+  font-weight: bold;
 }
 
 /* Grid area for Projects/Photos */
