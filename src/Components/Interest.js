@@ -41,8 +41,8 @@ class Interest extends Component {
   // Display
   render() {
     return(
-      <div className="personalSpace">
-        
+      <div className="interests">
+        <h1>Interests</h1>
       </div>
     )
   }

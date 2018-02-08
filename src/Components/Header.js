@@ -5,8 +5,8 @@ class Header extends React.Component {
     return (
       <div className="coverInfo">
         <h1>Bryan Woodhams</h1>
-        <p>Web and Product Developer</p>
-        <p>Student @ SFSU</p>
+        <p>Full Stack Web and Product Developer</p>
+        <p>Current BCS Student @ SFSU</p>
       </div>
     );
   }

@@ -31,6 +31,8 @@ html, body {
 /* Menu */
 .navigationMenu {
   display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column-start: 3;
   grid-column-end: 4;
 }
@@ -58,10 +60,6 @@ html, body {
   font-weight: bold;
 }
 
-/* Grid area for Projects/Photos */
-.personalSpace {
-  text-align: center;
-  margin: 5%;
-}
+
 
 
