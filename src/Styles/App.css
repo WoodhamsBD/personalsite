@@ -1,17 +1,14 @@
 .App {
   display: grid;
-  grid-template-columns: repeat(1fr, 4);
-  grid-template-rows: 15% 75% auto;
+
+  /* Initial Menu setup - Trying to switch for simpler header and body set up */
+  /* grid-template-columns: 20px repeat(1fr, 4) 20px; */
+  /* grid-template-rows: 15% 75% auto; */
 }
 
 html, body {
   /* background-image: url("../Images/Zion2017.jpg"); */
-  background: linear-gradient(to bottom, rgb(213, 246, 250), rgb(144, 203, 211));
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #f0f0f0;
 }
 
 /* Personal Information */
@@ -31,6 +28,8 @@ html, body {
 /* Menu */
 .navigationMenu {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   grid-column-start: 3;
@@ -38,6 +37,7 @@ html, body {
 }
 
 .navigationMenu ul {
+  flex-direction: row;
   list-style-type: none;
   margin: 0px;
   padding: 0;
@@ -60,6 +60,33 @@ html, body {
   font-weight: bold;
 }
 
+/* General Component Styles for pages */
+.projects {
+  padding: 5%;
+}
 
+.projects h1 {
+  text-align: center;
+}
+.projects p {
+  text-align: center;
+}
 
+.project {
+  background: white !important;
+  border: slategray;
+  border-style: double;
+  padding: 2% 5% 5% 2%;
+}
 
+.project-links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-content: center;
+}
+
+.project-links li {
+  padding: 5px;
+  text-decoration: none;
+}
