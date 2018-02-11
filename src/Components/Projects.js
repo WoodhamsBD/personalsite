@@ -3,9 +3,10 @@ import '../Styles/App.css';
 
 class Projects extends Component {
 
+  // Simple direct render of projects component for inclusion below header bar
   render() {
     return (
-      <div className="projects">
+      <div className="projects-containter">
         <h1 className="center" >Personal Projects</h1>
         <p>Here are several of the projects I am currently working on:</p>
 

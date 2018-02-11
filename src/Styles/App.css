@@ -61,14 +61,11 @@ html, body {
 }
 
 /* General Component Styles for pages */
-.projects {
+.projects-container {
   padding: 5%;
 }
 
-.projects h1 {
-  text-align: center;
-}
-.projects p {
+.projects-contianer h1 {
   text-align: center;
 }
 
