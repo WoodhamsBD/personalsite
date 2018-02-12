@@ -45,20 +45,6 @@ class Projects extends Component {
         </div>
 
         <br></br>
-
-        <div className="project">
-          <h3></h3>
-          <ul className="project-links">
-            <li><a href="#" target="_blank">Link to Github</a></li>
-            <li><a href="#" target="_blank">Link to URL</a></li>
-          </ul>
-
-          <h4>Stack:</h4>
-          <p></p>
-
-          <h4>Purpose:</h4>
-          <p></p>
-        </div>
       </div>
     )
   }

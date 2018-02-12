@@ -8,8 +8,8 @@ class Home extends Component {
     return(
       <div className="home-container">
         <h1 className="center">Welcome to my personal site</h1>
-        <p>My name is Bryan Woodhams, currently a student at SFSU in the Computer Science department.</p>
-        <p></p>
+        
+        <p>What to include.... personal mission statement? How would I make that seems like myself and not a carbon copy of all the others out there</p>
       </div>
     )
   }
