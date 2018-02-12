@@ -37,8 +37,6 @@ class Interest extends Component {
   constructor (props) {
     super(props)
   }
-
-
   // Will need to have indepenant sub components in here for each one?
 
   // Go back over the mapping function for the component return git s
