@@ -9,11 +9,11 @@ function Navigation () {
           Home
         </NavLink>
       </li>
-      <li>
+      {/* <li>
         <NavLink activeClassName="active" to='/interest'>
           Interests
         </NavLink>
-      </li>
+      </li> */}
       <li>
         <NavLink activeClassName="active" to="projects">
           Projects

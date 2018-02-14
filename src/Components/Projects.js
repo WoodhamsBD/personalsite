@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Styles/App.css';
 
-import Footer from './Footer.js';
+// import Footer from './Footer.js';
 
 class Projects extends Component {
 
@@ -15,8 +15,8 @@ class Projects extends Component {
         <div className="project">
           <h3>Stock History and Research</h3>
           <ul className="project-links">
-            <li><a href="https://github.com/WoodhamsBD/stockdisplay" target="_blank">Link to Github</a></li>
-            <li><a href="#" target="_blank">Link to URL</a></li>
+            <li><a href="https://github.com/WoodhamsBD/stockdisplay" target="_blank" rel="noopener noreferrer">Github</a></li>
+            {/* <li><a href="#" target="_blank">Link to URL</a></li> */}
           </ul>
           
           <h4>Stack:</h4>
@@ -33,8 +33,8 @@ class Projects extends Component {
         <div className="project">
           <h3>Office Appointment Scheduling and Template App</h3>
           <ul className="project-links">
-            <li><a href="https://github.com/WoodhamsBD/ADMD" target="_blank">Link to Github</a></li>
-            <li><a href="#" target="_blank">Link to URL</a></li>
+            <li><a href="https://github.com/WoodhamsBD/ADMD" target="_blank" rel="noopener noreferrer">Github</a></li>
+            {/* <li><a href="#" target="_blank">Link to URL</a></li> */}
           </ul>
 
           <h4>Stack:</h4>
