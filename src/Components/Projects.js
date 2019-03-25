@@ -34,7 +34,6 @@ class Projects extends Component {
           <h3>Office Appointment Scheduling and Template App</h3>
           <ul className="project-links">
             <li><a href="https://github.com/WoodhamsBD/ADMD" target="_blank" rel="noopener noreferrer">Github</a></li>
-            {/* <li><a href="#" target="_blank">Link to URL</a></li> */}
           </ul>
 
           <h4>Stack:</h4>
