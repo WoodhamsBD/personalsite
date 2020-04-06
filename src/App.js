@@ -35,7 +35,7 @@ class App extends React.Component {
 
               {/* Default for no match */}
               <Route render={function() {
-                return <p className="route-not-found">Route Not Found! Please use the links above.</p>
+                return <p className="route-not-found">Route Not Found!</p>
               }} />
             </Switch>
         </div>

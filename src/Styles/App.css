@@ -164,6 +164,12 @@ ul {
   background-color: #6497b1;
 }
 
+/* Image Classes */
+.image-homepage {
+  display: flex;
+  
+}
+
 /* Minimun Classes */
 .center {
   text-align: center;
